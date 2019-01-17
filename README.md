@@ -1,5 +1,6 @@
 ## appointment (mini-program)
-with graphql, raw miniprogram language
+with raw miniprogram language, graphql
+to see, search '优秀的预约' in wechat
 
 <div align="center">
     <img src="https://github.com/kulley/imgs/blob/master/appointment-mp-1.jpg" width="190" >
@@ -9,6 +10,7 @@ with graphql, raw miniprogram language
 
  ## schema
  ### server 服务个体
+
  字段含义 | 字段名 | 字段类型 | 字段描述
  ---|---|--- |---|---|--- |---
  服务标识 | id | ID | key
@@ -19,6 +21,7 @@ with graphql, raw miniprogram language
  更新时间 | updatedAt | String
 
  ### service 服务列表
+
  字段含义 | 字段名 | 字段类型 | 字段描述
  ---|---|--- |---|---|--- |---
  服务标识 | id | ID | key
@@ -33,6 +36,7 @@ with graphql, raw miniprogram language
 
 
  ### repertory 服务库存
+
  字段含义 | 字段名 | 字段类型 | 字段描述|
  --- | --- |--- |--- |--- |--- |---
  库存标识 | id | ID | key
@@ -41,9 +45,8 @@ with graphql, raw miniprogram language
  创建时间 | createdAt | String | non-null
  更新时间 | updatedAt | String
 
-
- ## 用户有关
  ### user 用户表
+
  字段含义 | 字段名 | 字段类型 | 字段描述
  ---|---|--- |---|---|--- |---
  用户标识 | id | ID | key
